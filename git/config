@@ -1,0 +1,16 @@
+[user]
+	name = octkmr
+	email = octkmr@gmail.com
+[color]
+	ui = true
+[core]
+	editor = vim
+	autocrlf = false
+	ignorecase = false
+	quotepath = false
+[push]
+	default = current
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
