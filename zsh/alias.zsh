@@ -37,7 +37,4 @@ alias dc="docker compose"
 
 # zsh
 alias zsh="nvim ~/.zshrc"
-load () {
-    clear
-    source ~/.zshrc
-}
+load="source ~/.zshrc"
