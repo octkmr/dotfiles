@@ -13,3 +13,6 @@ setopt SHARE_HISTORY
 setopt HIST_REDUCE_BLANKS
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE  
+
+# path
+export PATH=~/.composer/vendor/bin:$PATH
