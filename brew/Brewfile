@@ -1,0 +1,97 @@
+tap "1password/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "railwaycat/emacsmacport"
+# New file format for still image compression
+brew "jpeg-xl"
+# Color-highlighted diff(1) output
+brew "colordiff"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# General-purpose scripting language
+brew "php"
+# Dependency Manager for PHP
+brew "composer"
+# Modern replacement for 'ls'
+brew "exa"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Mac App Store command-line interface
+brew "mas"
+# Open source relational database management system
+brew "mysql", restart_service: true
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim", args: ["HEAD"]
+# Platform built on V8 to build network applications
+brew "node"
+# Draw UML diagrams
+brew "plantuml"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# YAMAMOTO Mitsuharu's Mac port of GNU Emacs
+brew "railwaycat/emacsmacport/emacs-mac", link: false
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
+# Application launcher and productivity software
+cask "alfred"
+# Desktop client for Amazon Music
+cask "amazon-music"
+# Trains AIs to understand and translate texts
+cask "deepl"
+# App to build and share containerized applications and microservices
+cask "docker"
+# YAMAMOTO Mitsuharu's Mac port of GNU Emacs
+cask "emacs-mac"
+# Developer targeted fonts with a high number of glyphs
+cask "font-hack-nerd-font"
+# Japanese programming font which is a composed of Hack and GenJyuu-Gothic
+cask "font-hackgen"
+# Japanese programming font which is a composed of Hack and GenJyuu-Gothic
+cask "font-hackgen-nerd"
+# Free and open-source image editor
+cask "gimp"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Blocks all Keyboard and TouchBar input
+cask "keyboardcleantool"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# PHP IDE by JetBrains
+cask "phpstorm"
+# Browser designed for modern work
+cask "pushplaylabs-sidekick"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Team communication and collaboration software
+cask "slack"
+# Music streaming service
+cask "spotify"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "RunCat", id: 1429033973
