@@ -1,6 +1,6 @@
 # 初期設定
 ```
-cd Dotfiles
+cd dotfiles
 ```
 ```
 sh initialize.sh
