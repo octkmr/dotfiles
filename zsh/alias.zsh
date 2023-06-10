@@ -39,3 +39,7 @@ alias dc="docker compose"
 alias zsh="nvim ~/.zshrc"
 alias load="source ~/.zshrc"
 alias zalias="nvim ~/zalias"
+
+# brewfile
+alias brewfile-create="brew bundle dump"
+alias brewfile-update="brew bundle cleanup --force"
