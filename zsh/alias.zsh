@@ -35,6 +35,9 @@ fi
 alias d="docker"
 alias dc="docker compose"
 
+# sail
+alias sail="./vendor/bin/sail"
+
 # zsh
 alias zsh="nvim ~/.zshrc"
 alias load="source ~/.zshrc"
