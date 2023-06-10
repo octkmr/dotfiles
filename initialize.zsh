@@ -1,5 +1,6 @@
 ln -fs "$HOME/dotfiles/zsh/" "$HOME/.config/zsh"
 ln -fs "$HOME/dotfiles/zshrc" "$HOME/.zshrc"
+ln -fs "$HOME/dotfiles/zsh/alias.zsh" "$HOME/zalias"
 ln -fs "$HOME/dotfiles/git/" "$HOME/.config/git"
 ln -fs "$HOME/dotfiles/nvim/" "$HOME/.config/nvim"
 ln -fs "$HOME/dotfiles/brew/Brewfile" "$HOME/Brewfile"
