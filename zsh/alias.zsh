@@ -31,6 +31,11 @@ if [[ $(command -v exa) ]]; then
   alias lt=et
 fi
 
+# bat
+if [[ $(command -v bat) ]]; then
+  alias cat='bat'
+fi
+
 # docker
 alias d="docker"
 alias dc="docker compose"
