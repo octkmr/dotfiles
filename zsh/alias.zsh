@@ -44,8 +44,11 @@ alias load="source ~/.zshrc"
 alias zalias="nvim ~/zalias"
 
 # brewfile
-alias brewfile-create="brew bundle dump"
-alias brewfile-update="brew bundle cleanup --force"
+# 今の環境に合わせてBrewfileを更新する
+alias brewfile-dump="brew bundle dump --force"
+# Brewfileに合わせて今の環境を更新する
+alias brewfile-cleanup="brew bundle cleanup --force"
+
 alias update-app="brew update && brew upgrade && mas upgrade"
 
 # googledrive
