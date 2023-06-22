@@ -37,3 +37,4 @@ fi
 source $ZSHHOME/common.zsh
 source $ZSHHOME/alias.zsh
 source $ZSHHOME/zinit.zsh
+source $ZSHHOME/fzf.zsh
