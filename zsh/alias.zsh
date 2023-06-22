@@ -33,7 +33,7 @@ fi
 
 # bat
 if [[ $(command -v bat) ]]; then
-  alias cat='bat'
+  alias cat='bat --color=always'
 fi
 
 # docker
