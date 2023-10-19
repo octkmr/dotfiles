@@ -50,10 +50,12 @@ cask "obsidian"
 cask "pgadmin4"
 cask "phpstorm"
 cask "postman"
+cask "raindropio"
 cask "raycast"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
+cask "vivaldi"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "Kindle", id: 405399194
