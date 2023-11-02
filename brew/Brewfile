@@ -30,12 +30,10 @@ brew "zsh-completions"
 brew "zsh-history-substring-search"
 brew "oven-sh/bun/bun"
 brew "railwaycat/emacsmacport/emacs-mac", link: false
+cask "1password"
 cask "1password-cli"
-cask "alfred"
-cask "amazon-music"
 cask "deepl"
 cask "docker"
-cask "emacs-mac"
 cask "font-hack-nerd-font"
 cask "font-hackgen"
 cask "font-hackgen-nerd"
@@ -45,11 +43,10 @@ cask "google-drive"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "keyboardcleantool"
+cask "logi-options-plus"
 cask "notion"
 cask "obsidian"
-cask "pgadmin4"
 cask "phpstorm"
-cask "postman"
 cask "raindropio"
 cask "raycast"
 cask "slack"
@@ -57,16 +54,10 @@ cask "spotify"
 cask "visual-studio-code"
 cask "vivaldi"
 cask "zoom"
-mas "Bear", id: 1091189122
-mas "Kindle", id: 405399194
+mas "Kindle Classic", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "RunCat", id: 1429033973
-vscode "foam.foam-vscode"
-vscode "marp-team.marp-vscode"
 vscode "MS-CEINTL.vscode-language-pack-ja"
-vscode "mushan.vscode-paste-image"
-vscode "shd101wyy.markdown-preview-enhanced"
-vscode "yzhang.markdown-all-in-one"
