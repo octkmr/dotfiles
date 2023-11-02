@@ -50,9 +50,9 @@ alias zalias="nvim ~/zalias"
 
 # brewfile
 # 今の環境に合わせてBrewfileを更新する
-alias brewfile-dump="brew bundle dump --global --force"
+alias brewfile-bundle="brew bundle --global --force"
 # Brewfileに合わせて今の環境を更新する
-alias brewfile-install="brew bundle --global --force"
+alias brewfile-cleanup="brew bundle cleanup --global --force"
 
 alias update-app="brew update && brew upgrade && mas upgrade"
 
