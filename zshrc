@@ -38,3 +38,5 @@ source $ZSHHOME/common.zsh
 source $ZSHHOME/alias.zsh
 source $ZSHHOME/zinit.zsh
 source $ZSHHOME/fzf.zsh
+# bun completions
+[ -s "/Users/octkmr/.bun/_bun" ] && source "/Users/octkmr/.bun/_bun"

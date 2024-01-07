@@ -57,7 +57,7 @@ alias brewfile-cleanup="brew bundle cleanup --global --force"
 alias update-app="brew update && brew upgrade && mas upgrade"
 
 # googledrive
-alias drive="cd ~/Library/CloudStorage/GoogleDrive-octkmr@gmail.com/マイドライブ/"
+alias drive="cd ~/Googledrive/マイドライブ"
 
 # phpstorm
 alias edit="open -na \"PhpStorm.app\" --args ."
